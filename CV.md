@@ -1,4 +1,4 @@
-# [rsschool-cv](https://dimon39.github.io/rsschool-cv/ "")
+# [rsschool-cv](https://dimon39.github.io/rsschool-cv/cv "")
 # Dmitriy Vlodarchik
 ## Contact information:
 ---
