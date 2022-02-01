@@ -12,7 +12,7 @@
 
 ## About me
 ---
-
+I would like to participate in interesting and modern projects and be part of a well-coordinated team. Basic knowledge of programming combined with knowledge of UI/UX programs is the basis for creating an original and useful project. 
 
 ## Skills:
 ---
