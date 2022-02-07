@@ -1,3 +1,51 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #4c4c4c;
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    .section-subtitle 
+    {
+        font-weight: 200;
+        margin-top: 0;
+    }
+    
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+    }
+    .nav-link {
+        position: relative;
+        padding: 0 11px;
+        text-decoration: none;
+        line-height: 50px;
+        font-weight: 300;
+        transition: .3s;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
