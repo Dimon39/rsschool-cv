@@ -4,11 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
 <body>
-    <h1>Dimon</h1>
-    <title>Test title</title>
+    <header class="header">
+        <div class="container"> 
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main class="main main-container">
+        <div class="container main-container">
+        <section class="section section-profile" id="profile">
+            <img src="assets/img/avatar.jpg" alt="my photo" class="section-profile-logo">
+        <div class="section-profile-title">
+            <h1 class="section-title main-title">Dmitriy Vlodarchik</h1>
+            <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+                <li class="section-item contacts-item">
+                    Poznan, Poland
+                </li>
+                <li class="section-item contacts-item">
+                    Email: <a href="mailto:" title="email">dymitr.wlodarczyk@gmail.com</a>
+                </li>
+                <li class="section-item contacts-item">
+                    Github: Dimon39
+                </li>
+                <li class="section-item contacts-item">
+                    Discord: Dimon39
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>I would like to participate in interesting and modern projects and be part of a well-coordinated team. Basic knowledge of programming combined with knowledge of UI/UX programs is the basis for creating an original and useful project.</p>
+        </section>
+    <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+            <li class="section-item">Web-development: HTML5, CSS3, JavaScript
+            </li>
+            <li class="section-item">Version control: GIT, Github
+            </li>
+            <li class="section-item">Graphics: Figma, Photoshop, InDesign, Illustrator, After Effects, Cindema 4D
+            </li>
+            <li class="section-item">Analytics: Power BI, Power Query, Google Data Studio
+            </li>
+        </ul>
+    </section>
+    <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre">
+<code>function sum(a, b) {
+return a + b;
+}
+let result = sum(3, 4);
+alert( result ); // 7</code>
+</pre>
+    </section>
+    <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="section-list">
+            <li class="section-item">
+                HTML/CSS - htmlacademy.ru
+            </li>
+            <li class="section-item">
+                JavaScript (in process...) - learn.javascript.ru/
+            </li>
+            <li class="section-item">
+                Power Query, Power BI - Akademia Skuteczne Raporty
+            </li>
+        </ul>
+    </section>
+    <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p>
+        <a href="https://github.com/dimon39" class="project-process">In process... </a></p>
+    </section>
+    <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+            <li class="section-item">
+                Poznan University of Economics and Business, Poznan, Poland - E-Marketing
+            </li>
+            <li class="section-item">
+                Adam Mickiewicz University, Poznan, Poland - General History
+            </li>
+        </ul>
+    </section>
+    <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="section-list">
+            <li class="section-item">
+                English - B1
+            </li>
+            <li class="section-item">
+                Russian - Native
+            </li>
+            <li class="section-item">
+                Polish - Fluent in speech and writing
+            </li>
+        </ul>
+    </section>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container footer-container">
+        <div class="year">© 2022</div>
+            <a href="https://github.com/dimon39" class="github"></a>
+        <a href="https://rs.school/js/" class="rsschool"></a>
+    </div>
+</footer>
 </body>
 </html>
